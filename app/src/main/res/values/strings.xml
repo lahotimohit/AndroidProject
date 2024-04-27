@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="opendrawer">Open navigation drawer</string>
+    <string name="closedrawer">Close navigation drawer</string>
+    <string name="app_id">ca-app-pub-3392208684967722~4992848288</string>
+    <string name="banner_ad1">ca-app-pub-3392208684967722/4781380707</string>
+</resources>

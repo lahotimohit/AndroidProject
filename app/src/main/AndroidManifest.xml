@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".BannerAds"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".Firebase_RTD"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".service_example"
+            android:exported="true"></activity>
+        <activity
+            android:name=".light_sensor"
+            android:exported="true" />
+        <activity
+            android:name=".Proximity_Sensor"
+            android:exported="true" />
+        <activity
+            android:name=".accelerometer_sensor"
+            android:exported="true" />
+        <activity
+            android:name=".Video_Implement"
+            android:exported="true" />
+        <activity
+            android:name=".audio_example"
+            android:exported="true" />
+        <activity
+            android:name=".Camera_activity"
+            android:exported="true" />
+        <activity
+            android:name=".Databaseexample"
+            android:exported="true" />
+        <activity
+            android:name=".homeactivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Webview"
+            android:exported="true" />
+        <activity
+            android:name=".getjsonapi"
+            android:exported="true" />
+        <activity
+            android:name=".navigationdrawer"
+            android:exported="true" />
+        <activity
+            android:name=".bottomnavigationactivity"
+            android:exported="true" />
+        <activity
+            android:name=".tablayout"
+            android:exported="true" />
+        <activity
+            android:name=".fragmentactivity"
+            android:exported="true" />
+        <activity
+            android:name=".callactivity"
+            android:exported="true" />
+        <activity
+            android:name=".Customdialog"
+            android:exported="true" />
+        <activity
+            android:name=".Alertdialog"
+            android:exported="true" />
+        <activity
+            android:name=".CustomToast"
+            android:exported="true" />
+        <activity
+            android:name=".Toolbar"
+            android:exported="true" />
+        <activity
+            android:name=".recyclerview1"
+            android:exported="false" />
+        <activity
+            android:name=".cardviewactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Autocomplete"
+            android:exported="false" />
+        <activity
+            android:name=".Spinneractivity"
+            android:exported="false" />
+        <activity
+            android:name=".listviewactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lottieanimation"
+            android:exported="false" />
+        <activity
+            android:name=".animationscreen"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Mytheme" />
+        <activity
+            android:name=".secondact"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <service android:name=".Music_Service" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
+
+    </application>
+
+</manifest>
